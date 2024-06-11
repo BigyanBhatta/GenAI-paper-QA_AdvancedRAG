@@ -1,0 +1,9 @@
+llama-index
+requests
+llama-index-llms-ollama
+torch
+transformers
+python-dotenv
+llama-index-embeddings-huggingface
+huggingface-hub
+arxiv
