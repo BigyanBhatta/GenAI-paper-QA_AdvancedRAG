@@ -8,8 +8,6 @@ This project is designed to facilitate the extraction and querying of research p
 - [Usage](#usage)
 - [Configuration](#configuration)
 - [Components](#components)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
 
@@ -62,11 +60,11 @@ LLAMA_PARSE_KEY=your_llama_parse_key
 
 ## Components
 
-1. main.py
+1. `main.py`
 This is the main entry point of the application. It initializes the LLM, document parser, embedding model, vector store index, and the agent. It also handles the interactive prompt loop.
 
-2. paper_extractor.py
+2. `paper_extractor.py`
 This module defines a function to search for research papers on Arxiv based on a given topic. The function returns a list of papers with their title, abstract, authors, and PDF URL.
 
-3. prompt.py
+3. `prompt.py`
 This module contains the context used by the agent during the query processing.
