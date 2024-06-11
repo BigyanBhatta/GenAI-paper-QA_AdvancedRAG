@@ -58,6 +58,7 @@ The application uses environment variables for sensitive information and configu
 
 ```env
 LLAMA_PARSE_KEY=your_llama_parse_key
+```
 
 ## Components
 
