@@ -68,3 +68,8 @@ This module defines a function to search for research papers on Arxiv based on a
 
 3. `prompt.py`
 This module contains the context used by the agent during the query processing.
+
+
+### Personal Comment
+This application runs the model completely locally using Ollama. BUt with the hardware I have, ie. 32 GB of RAM, i7 10 gen and NVDIA GTX 1650 Ti (4 GB), it is not enough and practical. It took me almost an hour and the system was utilizing full resource. Due to heating issue, I stopped the application. 
+But I've tested using OpenAI and it works fine. 
